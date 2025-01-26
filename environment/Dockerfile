@@ -1,6 +1,6 @@
-# hash:sha256:8985636fc2f399ba7ad3a115e3ee41f7fa0a056f6ccf9e78c54c4ab8a765678b
+# hash:sha256:e88fae45389feed8901673adfccb4825abb62a48505e89bf35ea43e28da9f573
 ARG REGISTRY_HOST
-FROM $REGISTRY_HOST/codeocean/jupyterlab:3.0.9-miniconda4.9.2-python3.8-ubuntu20.04
+FROM $REGISTRY_HOST/codeocean/py-r:python3.10.12-R4.2.3-IRkernel-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -12,9 +12,9 @@ RUN pip install -U --no-cache-dir \
     cloud-volume==10.2.2 \
     ipywidgets==8.1.3 \
     k3d==2.16.1 \
-    matplotlib==3.9.0 \
+    matplotlib==3.10.0 \
     numpy==1.26.4 \
-    pandas==2.2.2 \
+    pandas==2.2.3 \
     skeleton-plot==0.0.10
 
 COPY postInstall /
