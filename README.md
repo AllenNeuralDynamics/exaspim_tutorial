@@ -1,3 +1,2 @@
-# aind-capsule-template
+# exaspim tutorial
 
-Basic structure of a capsule to be customized as needed.

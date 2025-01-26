@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"attached_datasets": [
+		{
+			"id": "0af1415a-b043-44c9-829c-b062ec8f460e",
+			"mount": "exaSPIM_653158_2023-06-01_20-41-38_reconstructions"
+		},
+		{
+			"id": "10535663-e7c1-4cd0-8f03-581f90edce44",
+			"mount": "AllenCCFMesh"
+		},
+		{
+			"id": "3372ec9d-732a-4400-9116-696737d47e07",
+			"mount": "exaSPIM_609281_2022-11-03_13-49-18_reconstructions"
+		},
+		{
+			"id": "9144a708-70b4-425a-8360-3fa41b645118",
+			"mount": "mouselight_reconstructions"
+		},
+		{
+			"id": "c180921f-7847-456d-8e38-92b338092cc6",
+			"mount": "exaSPIM_653980_2023-08-10_20-08-29_reconstructions"
+		},
+		{
+			"id": "e15696f1-b908-4b55-8b0c-5c0b3ecbcae1",
+			"mount": "exaSPIM_651324_2023-03-06_15-13-25_reconstructions"
+		},
+		{
+			"id": "fdd6dcbf-0917-4349-ae18-20f687b0089c",
+			"mount": ".brainglobe"
+		}
+	]
+}
